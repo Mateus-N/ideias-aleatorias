@@ -1,0 +1,38 @@
+.login__page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--fundo);
+    gap: 16px;
+}
+
+.titulo__principal {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--texto);
+}
+
+.titulo__subtitulo {
+    color: var(--texto);
+    font-size: 18px;
+}
+
+.formulario__login {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    color: var(--texto);
+}
+
+.rodape__link {
+    color: var(--texto);
+}

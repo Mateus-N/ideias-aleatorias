@@ -1,0 +1,15 @@
+.button__Form {
+    padding: 8px;
+    color: var(--texto);
+    font-weight: 700;
+    font-size: 20px;
+    background-color: var(--fundo-botao);
+    border: none;
+    border-radius: 4px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.button__Form:hover {
+    opacity: 0.9;
+}
